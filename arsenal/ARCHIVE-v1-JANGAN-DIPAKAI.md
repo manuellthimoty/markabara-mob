@@ -1,3 +1,5 @@
+⚠️ ARSIP — digantikan oleh Planning-Milestone1-KuliahBareng-ITB-v2.md. Jangan dipakai sebagai acuan kerja.
+
 # Planning Milestone 1 — IF3151 Interaksi Manusia Komputer
 ## Ide: "KuliahBareng" — Info Matkul & Dosen, Forum Tanya Teman, Kalkulator IPK, & Simulasi Rencana Studi untuk Mahasiswa ITB
 ### (Adaptasi ringkas dari TemanKuliah — RISTEK Fasilkom UI)

@@ -1,14 +1,15 @@
    # Planning Milestone 1 (v2) — IF3151 Interaksi Manusia Komputer
-## "KuliahBareng" — Info Matkul & Dosen, Forum Tanya, Kalkulator IPK, dan Simulasi Rencana Studi untuk Mahasiswa ITB
+## "Karsa" — Info Matkul & Dosen, Forum Tanya, Kalkulator IPK, dan Simulasi Rencana Studi untuk Mahasiswa ITB
+### Tagline: "Susun Karirmu, Gapai Asamu"
 
 | Item | Keterangan |
 |---|---|
 | Deadline | **Minggu, 20 September 2026 pukul 20.00** (target internal submit: **18.00**) |
 | Sisa waktu (dihitung dari Rabu, 16 Sept malam) | ± 4 hari efektif |
-| Output | 1 file `.pptx` → `MS1-Requirement-<no kelas>-<no kelompok>-KuliahBareng` |
+| Output | 1 file `.pptx` → `MS1-Requirement-<no kelas>-<no kelompok>-Karsa` |
 | Tempat submit | `s.hmif.dev/PengumpulanMilestoneIMK` |
-| Metode data | Wawancara langsung semi-terstruktur + observasi artefak (tanpa Google Form) |
-| Status dokumen | Versi 2 — menggantikan v1. Semua isi bertanda **[HIPOTESIS]** wajib divalidasi dengan data wawancara. |
+| Metode data | Wawancara langsung semi-terstruktur, modul pertanyaan seragam untuk semua informan (tanpa Google Form, tanpa observasi artefak) |
+| Status dokumen | Versi 2 — menggantikan v1. Semua isi bertanda **[HIPOTESIS]** wajib divalidasi dengan data wawancara. Metode wawancara (Bagian 5.2, 6) mengikuti keputusan final `Panduan-Wawancara-Final-v3.md`. |
 
 ---
 
@@ -77,7 +78,7 @@
 | K1 | SDG final (cek `s.hmif.dev/KelompokIMK` **sekarang**, isi secepatnya karena satu kelas tidak boleh sama) | SDG 4; cadangan SDG 10 (lihat 4.2) | Semua, dieksekusi A |
 | K2 | Siapa Anggota A–E | Lihat 1.2 — cocokkan dengan jaringan informan tiap orang | Semua |
 | K3 | Tools kolaborasi | Google Drive + Google Sheets (Registry) + FigJam/Miro (sintesis) + draw.io/FigJam (swimlane) + Google Slides (lalu export .pptx) **atau** PowerPoint Online | Semua |
-| K4 | Nama produk final | "KuliahBareng" (boleh ganti, tapi kunci malam ini supaya tidak ubah 40 slide) | Semua |
+| K4 | Nama produk final | **"Karsa"** — tagline "Susun Karirmu, Gapai Asamu" (dikunci) | Semua |
 | K5 | No. kelas & no. kelompok untuk nama file | — | A |
 
 ---
@@ -201,7 +202,7 @@ Hanya ada **3 sinkronisasi wajib** (SYNC). Di luar itu kerja paralel + update as
 
 ### 3.1 Struktur folder Google Drive
 ```
-IMK-MS1-KuliahBareng/
+IMK-MS1-Karsa/
 ├── 00_Admin/                  → Registry Sheet, dokumen planning ini, spesifikasi
 ├── 01_Rekaman/  (akses terbatas anggota saja)
 │   ├── I01_A_<inisial>/       → audio/video + foto sesi
@@ -294,7 +295,7 @@ Tujuan umum tugas meminta produk yang inovatif atau menyelesaikan masalah softwa
 | Aplikasi/website lain yang disebut informan | | | | |
 | TemanKuliah (RISTEK UI) sebagai referensi luar ITB | Ulasan matkul, tanya teman, kalkulator nilai | — | Tidak untuk ITB; `[isi gap yang ingin kita jawab]` | Desk research |
 
-**Hipotesis pembeda (positioning) untuk dibuktikan data:** fitur-fitur di aplikasi sejenis berdiri sendiri-sendiri. Peluang KuliahBareng adalah **menghubungkan informasi beban matkul dari ulasan dengan perencanaan studi** — misalnya simulasi rencana studi yang memperlihatkan perkiraan beban tiap semester, bukan hanya jumlah SKS. Pertahankan pembeda ini **hanya jika** sintesis menunjukkan informan memang merasakan keterputusan antara "info matkul" dan "rencana studi".
+**Hipotesis pembeda (positioning) untuk dibuktikan data:** fitur-fitur di aplikasi sejenis berdiri sendiri-sendiri. Peluang Karsa adalah **menghubungkan informasi beban matkul dari ulasan dengan perencanaan studi** — misalnya simulasi rencana studi yang memperlihatkan perkiraan beban tiap semester, bukan hanya jumlah SKS. Pertahankan pembeda ini **hanya jika** sintesis menunjukkan informan memang merasakan keterputusan antara "info matkul" dan "rencana studi".
 
 ### 4.4 Hipotesis fitur (dipertahankan dari v1, diberi status)
 
@@ -318,8 +319,7 @@ Mahasiswa aktif S1 ITB (semua angkatan & fakultas) yang (a) mengambil keputusan 
 ### 5.2 Metode
 | Metode | Deskripsi | Mengapa dipilih |
 |---|---|---|
-| **Wawancara semi-terstruktur** (utama) | 25–35 menit per informan, 10 informan, Modul Inti + Modul Deep-Dive | Topik menyangkut pengalaman personal & kebiasaan (salah ambil matkul, cara bertanya, cara menghitung IPK) yang butuh probing "kenapa" dan cerita konkret; kuesioner tertutup tidak bisa menangkap urutan proses & emosi yang dibutuhkan untuk swimlane dan persona |
-| **Observasi artefak** (pendukung, dilakukan di dalam sesi wawancara) | Informan diminta *menunjukkan* (bukan menceritakan) artefak nyata: spreadsheet IPK, pencarian di grup chat, halaman FRS di SIX, catatan rencana studi, chat pertanyaan dari adik tingkat | Mengurangi bias ingatan (orang sering melaporkan kebiasaan secara tidak akurat); menghasilkan evidence visual; menangkap langkah kerja nyata untuk P dan UT |
+| **Wawancara semi-terstruktur** (utama) | 30–38 menit per informan, 10 informan, satu **modul pertanyaan seragam (Q1–Q10 + penutup)** dipakai semua pewawancara ke semua informan — lihat `Script-Wawancara-MS1-KuliahBareng.md` Bagian 5 | Topik menyangkut pengalaman personal & kebiasaan (salah ambil matkul, cara bertanya, cara menghitung IPK) yang butuh probing "kenapa" dan cerita konkret; kuesioner tertutup tidak bisa menangkap urutan proses & emosi yang dibutuhkan untuk swimlane dan persona; modul seragam membuat data 10 informan bisa dibandingkan langsung tanpa modul khusus per domain |
 | Desk research (pelengkap) | Referensi TemanKuliah, target SDG, Peraturan Akademik/kurikulum untuk verifikasi istilah | Konteks & validasi fakta, bukan sumber pain point |
 
 Alasan tidak memakai kuesioner ditulis positif di slide ("kedalaman > jumlah untuk tahap eksplorasi problem space"), jangan terkesan menghindari kerja.
@@ -328,10 +328,10 @@ Alasan tidak memakai kuesioner ditulis positif di slide ("kedalaman > jumlah unt
 
 | Tujuan riset (spesifikasi) | Apa yang ingin diketahui | Sumber di panduan wawancara |
 |---|---|---|
-| User Goal untuk menyusun Scenario & Business Process Flow | Apa yang ingin dicapai mahasiswa di tiap momen semester; urutan langkah yang benar-benar dilakukan | Inti-2, Inti-4, Inti-5, seluruh Deep-Dive |
-| User Task yang merinci user goal | Langkah & tindakan konkret, tools, titik keputusan | Observasi artefak, probing "lalu apa yang kamu lakukan?" |
-| Karakteristik user untuk Persona | Demografi, device, aplikasi harian, gaya belajar, sikap terhadap bertanya/berbagi, motivasi | Inti-1 (Profil Digital), Deep-Dive |
-| Masalah/tantangan desain interaksi | Pain point, workaround, konsekuensi, emosi, alasan tidak memakai solusi existing | Inti-3, Inti-6, Deep-Dive |
+| User Goal untuk menyusun Scenario & Business Process Flow | Apa yang ingin dicapai mahasiswa di tiap momen semester; urutan langkah yang benar-benar dilakukan | Q2, Q5, Q7, Q9 |
+| User Task yang merinci user goal | Langkah & tindakan konkret, tools, titik keputusan | Probing "lalu apa yang kamu lakukan?" di Q2, Q4, Q5, Q7, Q8 |
+| Karakteristik user untuk Persona | Demografi, device, aplikasi harian, gaya belajar, sikap terhadap bertanya/berbagi, motivasi | Q1 (Profil Digital), pola perilaku lintas Q2–Q9 |
+| Masalah/tantangan desain interaksi | Pain point, workaround, konsekuensi, emosi, alasan tidak memakai solusi existing | Q3, Q6, Q10 |
 
 ### 5.4 Kriteria & sebaran informan
 
@@ -362,20 +362,19 @@ Segmen per domain (screening question saat mengajak):
 ### 5.6 Etika, consent, dan privasi
 - Minta izin rekam **sebelum** mulai dan ulangi konfirmasi di akhir. Catat di tab `Informan`.
 - Foto evidence: minta izin terpisah; tawarkan wajah diblur/ambil dari belakang.
-- Di slide: pakai **kode informan + deskripsi singkat** (mis. "I3, angkatan 2023, FTI"), **tanpa nama asli**. Screenshot artefak **diblur** untuk nama, NIM, nilai, dan isi chat pribadi orang lain.
+- Di slide: pakai **kode informan + deskripsi singkat** (mis. "I3, angkatan 2023, FTI"), **tanpa nama asli**.
 - Rekaman hanya di folder berakses terbatas; hapus setelah nilai tugas besar keluar (sampaikan ini ke informan).
 
 ---
 
 ## 6. Panduan Wawancara v2 (dipakai semua anggota)
 
-### 6.1 Struktur sesi (target 30 menit, maks. 35)
+### 6.1 Struktur sesi (target 30–35 menit, lihat catatan durasi di script)
 
 | Blok | Menit | Isi |
 |---|---|---|
 | Pembuka | 3 | Perkenalan, tujuan, consent |
-| Modul Inti | 12 | 6 pertanyaan yang **sama untuk semua informan** (supaya data 10 orang bisa dibandingkan) |
-| Modul Deep-Dive | 12 | Sesuai domain pewawancara, **termasuk observasi artefak** |
+| Modul Wawancara Gabungan (Q1–Q10 + penutup modul) | 28–32 | Satu set pertanyaan yang **sama untuk semua informan**, dibawakan pewawancara mana pun — tidak ada lagi modul khusus per domain |
 | Penutup | 3 | Pertanyaan terbuka, konfirmasi consent, foto evidence |
 
 ### 6.2 Aturan bertanya (baca sebelum wawancara pertama)
@@ -385,93 +384,21 @@ Segmen per domain (screening question saat mengajak):
 4. **Probing standar** (pakai berulang): "Kenapa?", "Lalu apa yang kamu lakukan?", "Bisa kasih contoh?", "Gimana rasanya waktu itu?", "Kalau diurutkan langkahnya bagaimana?", "Ada cara lain yang kamu coba?"
 5. **Diam 3 detik** setelah informan selesai bicara — sering muncul cerita tambahan.
 6. Catat **timestamp** rekaman untuk kutipan bagus (mis. `[12:40]`) supaya mudah dicari saat bikin slide.
-7. Jika waktu mepet, **Deep-Dive didahulukan** atas pertanyaan Inti bertanda (opsional).
+7. Jika waktu mepet, persingkat probing tapi tetap ajukan seluruh Q1–Q10 secara ringkas — lihat panduan situasi sulit di script.
 
-### 6.3 Pembuka (script)
-> "Halo, makasih sudah mau ngobrol. Aku `[nama]` dari kelompok tugas besar Interaksi Manusia Komputer. Kami lagi riset tentang **pengalaman mahasiswa ITB dalam mengambil keputusan akademik dan menjalani perkuliahan** — nggak ada jawaban benar atau salah, yang kami butuh justru pengalaman jujurmu, termasuk yang menyebalkan. Ngobrolnya sekitar 30 menit. Boleh aku rekam audionya? Rekaman cuma dipakai kelompok kami untuk tugas, namamu nggak akan muncul di presentasi, dan akan dihapus setelah nilai keluar. Kamu juga boleh skip pertanyaan apa pun."
+### 6.3–6.6 Pertanyaan wawancara — sumber tunggal: Script-Wawancara-MS1-KuliahBareng.md
 
-Catat: inisial, angkatan, prodi/fakultas, semester sekarang, asal daerah (perantau/tidak, **opsional**).
+Sejak Panduan Wawancara Final v3, isi pertanyaan (pembuka, modul inti, dan penutup) **tidak lagi diduplikasi di sini** supaya tidak ada dua dokumen berisi pertanyaan yang bisa saling tidak sinkron. Detail lengkap ada di `Script-Wawancara-MS1-KuliahBareng.md`:
+- **Pembuka & consent** → script Bagian 4
+- **Modul Wawancara Gabungan (Q1–Q10, versi informal & formal tiap pertanyaan, sama untuk semua informan)** → script Bagian 5
+- **Penutup (T1–T5)** → script Bagian 6
 
-### 6.4 Modul Inti (semua informan)
-
-**Inti-1 — Profil Digital & Keseharian (±2 menit)**
-- "Device apa yang paling sering kamu pakai untuk urusan kuliah — HP, laptop, tablet? Untuk apa masing-masing?"
-- "Aplikasi apa saja yang kamu buka hampir setiap hari untuk urusan kuliah?" *(probing: berapa grup chat kuliah yang kamu ikuti kira-kira? mana yang paling aktif?)*
-
-**Inti-2 — FRS terakhir (±3 menit)** — *sumber utama swimlane*
-- "Coba ceritakan FRS semester ini dari awal sampai disetujui. Mulai dari kapan kamu mulai mikirin, lalu langkahnya apa saja?"
-  - Probing: dari mana tahu matkul apa yang harus/bisa diambil? ada momen ragu? tanya siapa? ada revisi dari dosen wali? kenapa?
-
-**Inti-3 — Kredibilitas informasi (±2 menit)**
-- "Terakhir kali kamu dapat info soal suatu matkul atau dosen (dari kating, grup, menfess), infonya ternyata sesuai kenyataan nggak? Ceritakan."
-  - Probing: gimana cara kamu memutuskan info mana yang dipercaya?
-
-**Inti-4 — Kesulitan saat perkuliahan (±2 menit)**
-- "Ceritakan terakhir kali kamu bingung soal tugas atau materi. Apa yang kamu lakukan dari awal sampai dapat jawaban (atau nggak dapat)?"
-  - Probing: sempat cari di chat lama? berapa lama sampai dapat jawaban?
-
-**Inti-5 — Pemantauan nilai & rencana (±2 menit)**
-- "Setelah nilai semester keluar, apa yang kamu lakukan dengan nilai itu? Kamu menghitung atau mencatat sesuatu?"
-  - Probing: pakai apa? pernah salah hitung atau kaget dengan IPK/SKS?
-
-**Inti-6 — Berbagi informasi (±1 menit, opsional jika waktu mepet)**
-- "Pernah nggak kamu yang ditanya atau membagikan info soal matkul ke orang lain? Ceritakan satu kejadian."
-
-### 6.5 Modul Deep-Dive per Domain
-
-#### Deep-Dive A — Pencari Info Matkul & Dosen (I1, I2)
-1. "Untuk matkul yang paling bikin kamu ragu semester ini, info apa saja yang kamu cari sebelum FRS? Urutkan dari yang paling penting."
-2. "Dari mana saja kamu dapat info itu? Berapa lama total waktu yang kamu habiskan?"
-3. "Info apa yang **tidak** berhasil kamu dapatkan tapi sebenarnya kamu butuhkan?"
-4. "Kalau dua sumber bilang hal yang bertentangan soal matkul/dosen, apa yang kamu lakukan?"
-5. "Sekarang setelah kuliah berjalan, apa yang berbeda dari ekspektasimu? Apa dampaknya buatmu?"
-6. **Observasi:** "Boleh tunjukkan chat/postingan yang kamu pakai waktu cari info matkul itu?" → screenshot (blur).
-
-#### Deep-Dive B — Jelajah & Bandingkan Matkul untuk FRS (I3, I4)
-1. "Ceritakan waktu kamu memilih matkul di luar prodi. Ada berapa kandidat awalnya, dan bagaimana kamu mengerucutkannya?"
-2. "Apa saja yang kamu bandingkan antar-kandidat? (probing: SKS, jadwal, beban, dosen, relevansi, prasyarat, peluang nilai)"
-3. "Di mana kamu menaruh/mencatat perbandingan itu? Di kepala, catatan, spreadsheet?"
-4. "Seberapa bebas sebenarnya kamu memilih kelas atau dosen di SIX? Apa yang membatasi?"
-5. "Pernah ada matkul pilihan yang kamu sesali atau yang kamu lewatkan karena kurang info? Ceritakan."
-6. **Observasi:** "Boleh tunjukkan daftar/catatan kandidat matkul atau halaman FRS-mu (nama & nilai diblur)?"
-
-#### Deep-Dive C — Bertanya Soal Tugas/Materi (I5, I6)
-1. "Ceritakan pertanyaan tugas terakhir yang kamu kirim ke grup/teman. Kenapa kamu pilih bertanya ke sana?"
-2. "Sebelum bertanya, kamu mencoba cari jawabannya di mana dulu? Bagaimana hasilnya?"
-3. "Pernah menunda atau batal bertanya? Kenapa? (probing: malu, takut dianggap bodoh, bingung harus tanya siapa)"
-4. "Kalau jawabannya datang dari beberapa orang/grup berbeda, bagaimana kamu menyatukannya?"
-5. "Jawaban yang pernah kamu dapat, apakah kamu simpan? Pernah butuh lagi di kemudian hari?"
-6. **Observasi:** "Boleh coba cari di grup kelasmu diskusi soal tugas minggu lalu? Aku perhatikan caranya ya." → catat berapa langkah/waktu, kesulitan, screenshot (blur).
-
-#### Deep-Dive D — Kating Kontributor (I7, I8)
-1. "Dalam satu semester, kira-kira seberapa sering kamu ditanya adik tingkat soal matkul/tugas? Lewat kanal apa?"
-2. "Pertanyaan apa yang paling sering berulang? Ceritakan contoh terbaru."
-3. "Bagaimana kamu biasanya menjawab? Berapa lama waktumu tersita? Pernah memilih tidak menjawab? Kenapa?"
-4. "Pernah membuat catatan/dokumen/rangkuman tips untuk adik tingkat? Apa yang terjadi dengan dokumen itu?"
-5. "Apa yang membuatmu mau (atau malas) berbagi pengalaman matkul? (probing: waktu, takut salah info, takut menyinggung dosen, anonimitas, pengakuan)"
-6. **Observasi:** "Boleh tunjukkan contoh chat pertanyaan yang pernah kamu terima (nama pengirim diblur)?"
-
-#### Deep-Dive E — Perencanaan Akademik (I9, I10)
-1. (I9) "Waktu TPB, kenapa kamu memantau IP? Apa target yang ingin kamu capai dan dari mana kamu tahu target itu?"
-   (I10) "Ceritakan bagaimana kamu menghitung sisa matkul/SKS sampai lulus. Kapan terakhir melakukannya?"
-2. "Langkah menghitungnya seperti apa? Data diambil dari mana?"
-3. "Pernah salah hitung atau telat sadar (SKS kurang/lebih, prasyarat, matkul wajib terlewat, bentrok)? Apa dampaknya?"
-4. "Kalau nilai semester depan bisa diprediksi, apa yang akan kamu lakukan dengan informasi itu?" *(boleh — ini tentang keputusan, bukan fitur)*
-5. "Saat menyusun rencana beberapa semester ke depan, apakah kamu mempertimbangkan beratnya matkul, bukan hanya SKS? Bagaimana caranya?"
-6. **Observasi:** "Boleh tunjukkan spreadsheet/catatan IPK atau rencana studimu? Coba perlihatkan cara kamu memperbaruinya setelah nilai keluar." → catat rumus/langkah, screenshot (nilai diblur).
-
-### 6.6 Penutup (semua informan)
-1. "Dari semua yang kita obrolin, mana yang paling mengganggu buatmu?"
-2. "Kalau kamu bisa mengubah satu hal dari cara mahasiswa ITB mencari info akademik atau merencanakan studi, apa?"
-3. "Ada yang belum aku tanya tapi menurutmu penting?"
-4. Konfirmasi ulang izin memakai rekaman & foto sebagai lampiran (samaran). Ambil 1 foto sesi.
-5. "Kalau nanti kami punya rancangan awal, boleh kami hubungi lagi untuk dicoba?" → sangat berguna untuk **MS3 (evaluasi low-fi)**. Catat di Registry.
+Perubahan pada pertanyaan wawancara cukup dilakukan di script, planning ini otomatis tetap konsisten karena hanya menunjuk (bukan menyalin) isinya.
 
 ### 6.7 Checklist pewawancara
 - [ ] Baterai & memori HP cukup, mode pesawat/jangan ganggu aktif (kecuali untuk rekaman online)
 - [ ] Template ringkasan dibuka / siap diisi
 - [ ] Consent rekam & foto tercatat
-- [ ] Minimal 1 observasi artefak + screenshot
 - [ ] Minimal 3 kutipan bertimestamp
 - [ ] Ringkasan diisi ≤ 3 jam setelah sesi, sticky notes ditempel di FigJam
 
@@ -505,13 +432,10 @@ Consent rekam: Y/N  | Consent foto: Y/N | Link rekaman: __
 6. KUTIPAN TERPILIH (maks. 5, verbatim, ada timestamp)
    - "__" [mm:ss]
 
-7. OBSERVASI ARTEFAK
-   Apa yang ditunjukkan: __ | Langkah yang terlihat: __ | Kesulitan yang terlihat: __ | Link screenshot (blur): __
-
-8. KEJUTAN / HAL YANG BERTENTANGAN DENGAN HIPOTESIS KITA
+7. KEJUTAN / HAL YANG BERTENTANGAN DENGAN HIPOTESIS KITA
    - __
 
-9. STICKY NOTES UNTUK SINTESIS (10–20 baris, 1 ide per baris, format "I_: ...")
+8. STICKY NOTES UNTUK SINTESIS (10–20 baris, 1 ide per baris, format "I_: ...")
    - I_: ...
 ```
 
@@ -520,7 +444,7 @@ Consent rekam: Y/N  | Consent foto: Y/N | Link rekaman: __
 ## 8. Sesi Sintesis — SYNC-2, Jumat 19.00–21.30 (Fasilitator: A)
 
 ### 8.1 Persiapan (sebelum 17.00)
-- Board FigJam dengan 10 kolom (I1–I10). Setiap pewawancara menempel sticky notes dari bagian 9 template, **warna berbeda per segmen**.
+- Board FigJam dengan 10 kolom (I1–I10). Setiap pewawancara menempel sticky notes dari bagian 8 template, **warna berbeda per segmen**.
 - Area kosong: "Cluster", "Kandidat M", "Alur (P)", "Perilaku untuk Persona", "Parkir (menarik tapi di luar scope)".
 
 ### 8.2 Agenda
@@ -594,7 +518,7 @@ Consent rekam: Y/N  | Consent foto: Y/N | Link rekaman: __
 ## 11. User Process Flow (Swimlane) — Slide 2c (Owner: B)
 
 ### 11.1 Aturan dari spesifikasi yang sering terlewat
-- Menggambarkan **alur kerja natural/existing** (tanpa aplikasi KuliahBareng). Tidak boleh ada kotak berbunyi "membuka aplikasi".
+- Menggambarkan **alur kerja natural/existing** (tanpa aplikasi Karsa). Tidak boleh ada kotak berbunyi "membuka aplikasi".
 - **Setiap kotak proses punya kode P** dan setiap P punya deskripsi singkat.
 - Diagram harus menunjukkan **keterkaitan antar user story** → gunakan satu siklus semester yang menyambungkan semua UG.
 
@@ -704,7 +628,7 @@ Isi detail (tempat, emosi, kalimat chat) **wajib diambil dari cerita informan**,
 2. **P11–D3:** mencoba mencari di grup kelas & chat angkatan tahun lalu, hasil pencarian tenggelam oleh stiker/pengumuman. *(UG2)*
 3. **P12–P13:** mengirim pertanyaan ke tiga grup, menunggu; PR2 menerima pertanyaan serupa dari tiga orang berbeda minggu itu, menjawab singkat karena lelah. *(UG2, UG3)*
 
-**Definition of Done 2e:** UG1–UG6 semuanya muncul di S1 ∪ S2; semua P disebut minimal sekali; tidak ada kata "aplikasi KuliahBareng".
+**Definition of Done 2e:** UG1–UG6 semuanya muncul di S1 ∪ S2; semua P disebut minimal sekali; tidak ada kata "aplikasi Karsa".
 
 ---
 
@@ -845,8 +769,9 @@ Isi slide:
 ### 17.2 Evidence User Gathering (5b)
 - 1 slide kolase: 10 foto/screenshot sesi (wajah diblur jika diminta) dengan label kode informan, tanggal, mode.
 - 1 slide tabel informan (kode, angkatan, fakultas, segmen, pewawancara, tanggal, durasi) — tanpa nama.
-- 1 slide contoh observasi artefak (2–4 screenshot yang diblur).
 - (Opsional) link folder rekaman berakses terbatas untuk asisten jika diminta, **hanya jika informan menyetujui**.
+
+> Metode observasi artefak dihapus dari implementasi (v3) — evidence 5b berisi foto sesi wawancara & tabel informan saja, tanpa screenshot artefak.
 
 ---
 
@@ -854,13 +779,13 @@ Isi slide:
 
 | No | Bagian spesifikasi | Judul slide | Isi | Owner | Bergantung pada |
 |---|---|---|---|---|---|
-| 1 | Judul | KuliahBareng | Nama produk, tagline, SDG, no. kelas & kelompok, nama + NIM 5 anggota | A | K1, K4, K5 |
+| 1 | Judul | Karsa | Nama produk "Karsa", tagline "Susun Karirmu, Gapai Asamu", SDG, no. kelas & kelompok, nama + NIM 5 anggota | A | K1, K4, K5 |
 | 2 | — | Daftar Isi | 5 bagian utama | E | — |
 | 3 | 1 (divider) | Deskripsi Topik | — | E | — |
 | 4 | 1a | Latar Belakang | 4.1 | A | Sintesis (angka) |
 | 5 | 1a | Relevansi SDG | 4.2 + tabel target | A | K1 |
 | 6 | 1b | Target Pengguna & Segmen Informan | 5.1, 5.4 | A | Registry `Informan` |
-| 7 | 1b | Metode Riset | 5.2 (wawancara + observasi artefak) | A | — |
+| 7 | 1b | Metode Riset | 5.2 (wawancara semi-terstruktur, modul pertanyaan seragam) | A | — |
 | 8 | 1b | Tujuan Riset | 5.3 | A | — |
 | 9 | 2 (divider) | User Gathering — Identifikasi Problem Space | — | E | — |
 | 10 | 2a | Temuan Utama Wawancara | 9.2 butir 1 | D | Sintesis |
@@ -920,7 +845,7 @@ Reviewer menulis komentar (fitur comment), **pemilik slide yang mengedit**.
 - [ ] Setiap anggota PIC untuk UT berbeda (5 PIC, 10 UT)
 
 ### 19.4 Checklist submit (E)
-- [ ] Nama file: `MS1-Requirement-K<no kelas>-<no kelompok>-KuliahBareng.pptx`
+- [ ] Nama file: `MS1-Requirement-K<no kelas>-<no kelompok>-Karsa.pptx`
 - [ ] Format **.pptx** (bukan PDF/link Google Slides); dibuka ulang setelah export, cek font, tabel, dan diagram tidak bergeser
 - [ ] Ukuran file wajar (kompres gambar jika > 50 MB)
 - [ ] Hanya **satu** file dikumpulkan untuk kelompok
@@ -950,35 +875,35 @@ Reviewer menulis komentar (fitur comment), **pemilik slide yang mengedit**.
 
 ### Anggota A — Info Matkul & Dosen (UG1) · Topik & Riset · Fasilitator · Lampiran · Koordinator
 - **Rabu:** SYNC-1; cek & isi SDG; buat Drive + Registry + Glosarium + tab Status; rekrut I1, I2 (+cadangan).
-- **Kamis:** wawancara I1–I2 (Inti + Deep-Dive A) + ringkasan; draf slide 1, 4–8; cek sebaran informan di Registry malam hari.
+- **Kamis:** wawancara I1–I2 (Q1–Q10 + penutup, lihat script) + ringkasan; draf slide 1, 4–8; cek sebaran informan di Registry malam hari.
 - **Jumat:** sticky notes siap ≤ 17.00; siapkan board FigJam; **fasilitasi SYNC-2**; rapikan Registry setelah sesi.
 - **Sabtu:** UG1 final; UT1.1–UT1.2 (tabel + 2 slide deskripsi); EUC *KenaliMatkulDanDosen* + deskripsi F1.x; baris UsG1 & UxG1; slide 50–53 (AI & evidence); update angka di slide 4.
 - **Minggu:** review slide E; perbaiki komentar; traceability check bersama E.
 
 ### Anggota B — Jelajah & Bandingkan Matkul (UG4) · Swimlane
 - **Rabu:** SYNC-1; rekrut I3, I4 (+cadangan); pelajari template cross-functional flowchart.
-- **Kamis:** wawancara I3–I4 (Inti + Deep-Dive B) + ringkasan; siapkan kerangka lane & draf P hipotesis di draw.io.
+- **Kamis:** wawancara I3–I4 (Q1–Q10 + penutup, lihat script) + ringkasan; siapkan kerangka lane & draf P hipotesis di draw.io.
 - **Jumat:** sticky notes ≤ 17.00; pimpin segmen "Alur (P)" di SYNC-2; mulai gambar swimlane final malam itu.
 - **Sabtu:** **kunci P di Registry ≤ 10.00**; slide 15–16; UG4 final; UT4.1–UT4.2 (tabel + 2 slide); EUC *BandingkanKandidatMatkul* + deskripsi F4.x; baris UsG2 & UxG2; bantu E untuk UsG6.
 - **Minggu:** review slide C; perbaiki komentar pada slide sendiri.
 
 ### Anggota C — Forum Tanya Matkul (UG2) · Persona
 - **Rabu:** SYNC-1; rekrut I5, I6 (+cadangan).
-- **Kamis:** wawancara I5–I6 (Inti + Deep-Dive C, termasuk observasi pencarian di grup) + ringkasan; siapkan layout 3 persona di template E.
+- **Kamis:** wawancara I5–I6 (Q1–Q10 + penutup, lihat script) + ringkasan; siapkan layout 3 persona di template E.
 - **Jumat:** sticky notes ≤ 17.00; pimpin segmen "Persona" di SYNC-2.
 - **Sabtu:** draf PR1–PR3 ≤ 14.00 (kirim ke D untuk scenario); UG2 final; UT2.1–UT2.2 (tabel + 2 slide); EUC *CariDanTanyakanMasalahMatkul* + deskripsi F2.x; baris UsG3 & UxG3.
 - **Minggu:** review slide D; perbaiki komentar pada slide sendiri.
 
 ### Anggota D — Kontribusi Kating (UG3) · Masalah & Opportunity · Scenario
 - **Rabu:** SYNC-1; rekrut I7, I8 (+cadangan).
-- **Kamis:** wawancara I7–I8 (Inti + Deep-Dive D) + ringkasan; mulai tabel solusi existing (4.3) dari ringkasan yang masuk.
+- **Kamis:** wawancara I7–I8 (Q1–Q10 + penutup, lihat script) + ringkasan; mulai tabel solusi existing (4.3) dari ringkasan yang masuk.
 - **Jumat:** sticky notes ≤ 17.00; ikut SYNC-2; tulis draf kalimat M malam itu.
 - **Sabtu:** slide 10–12 ≤ 12.00; UG3 final; UT3.1–UT3.2 (tabel + 2 slide); EUC *BagikanPengalamanMatkul* + deskripsi F3.x; baris UsG4, UxG4, UxG6; scenario S1 & S2 (14.00–18.00).
 - **Minggu:** review slide E; perbaiki komentar pada slide sendiri.
 
 ### Anggota E — Perencanaan Akademik (UG5, UG6) · PPT Owner
 - **Rabu:** SYNC-1; rekrut I9, I10 (+cadangan); mulai master template PPT.
-- **Kamis:** wawancara I9–I10 (Inti + Deep-Dive E, termasuk observasi spreadsheet) + ringkasan; selesaikan template + seluruh slide kosong berlabel sesuai outline 18; verifikasi skala nilai & aturan akademik yang dipakai F5.x/F6.x.
+- **Kamis:** wawancara I9–I10 (Q1–Q10 + penutup, lihat script) + ringkasan; selesaikan template + seluruh slide kosong berlabel sesuai outline 18; verifikasi skala nilai & aturan akademik yang dipakai F5.x/F6.x.
 - **Jumat:** sticky notes ≤ 17.00; ikut SYNC-2.
 - **Sabtu:** UG5 & UG6 final; UT5.1 & UT6.1 (tabel + 2 slide); EUC *PantauCapaianAkademik* & *RencanakanStudiSampaiLulus* + deskripsi F5.x, F6.x; baris UsG5, UsG6, UxG5; **pimpin SYNC-3**; konsolidasi slide 13–14, 22, 47–48; export uji coba .pptx.
 - **Minggu:** review slide A; traceability check bersama A; polish visual; content freeze 17.00; export, cek, **submit ≤ 18.00**.
